@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+  "content": "Nota de contenido",
+  "important": true
+}
+
+###
+GET http://localhost:3000/api/notes
+
+###
+GET http://localhost:3000/api/notes/4
+
+###
+DELETE http://localhost:3000/api/notes/4
